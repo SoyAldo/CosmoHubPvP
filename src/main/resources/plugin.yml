@@ -1,0 +1,7 @@
+name: CosmoHubPvP
+version: '1.0.0-ALPHA'
+main: com.soyaldo.cosmo.CosmoHubPvP
+api-version: '1.19'
+authors: [SoyAldo]
+description: Sistema de combate en el vestibulo.
+website: https://soyaldo.com
