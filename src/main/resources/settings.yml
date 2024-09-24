@@ -1,0 +1,47 @@
+# --------------------------------------------------
+# General
+# --------------------------------------------------
+
+# Change the cooldown when enabling/disabling PvP (seconds). Set to 0 to disable.
+enable-cooldown: 3
+disable-cooldown: 0
+
+# Respawn location
+respawn:
+  enabled: true # Should HubPvP teleport a player when they die?
+  use-world-spawn: false # Overrides x, y, z, yaw, pitch
+  x: 0
+  y: 100
+  z: 0
+  yaw: 0
+  pitch: 0
+
+# How much health is regained on kill, this is in HP, not hearts. Set to -1 to disable
+health-on-kill: 4
+
+disabled-worlds:
+  - world_nopvp
+
+# --------------------------------------------------
+# Item Customisation
+# --------------------------------------------------
+
+items:
+  weapon:
+    slot: 9
+    material: "DIAMOND_SWORD"
+    name: '&7> &#db86e6&lP&#da85d0&lv&#d984ba&lP &#d883a4&lS&#d8818d&lw&#d78077&lo&#d67f61&lr&#d57e4b&ld &7<' # Name of the item
+    lore: # Item description, shown when hovering over in inventory
+      - "&7Equip this sword to fight other players!"
+    enchantments:
+      - "sharpness:1"
+  helmet:
+    material: "DIAMOND_HELMET"
+    enchantments:
+      - "protection:1"
+  chestplate:
+    material: "DIAMOND_CHESTPLATE"
+  leggings:
+    material: "DIAMOND_LEGGINGS"
+  boots:
+    material: "DIAMOND_BOOTS"

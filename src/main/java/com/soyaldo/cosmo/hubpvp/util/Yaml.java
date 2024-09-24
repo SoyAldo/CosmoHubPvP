@@ -1,4 +1,4 @@
-package com.soyaldo.luckypillarsinfection.utils;
+package com.soyaldo.cosmo.hubpvp.util;
 
 import com.google.common.io.ByteStreams;
 import org.bukkit.Bukkit;
@@ -186,6 +186,14 @@ public class Yaml {
 
     public int getInt(String path, int def) {
         return fileConfiguration.getInt(path, def);
+    }
+
+    public double getDouble(String path) {
+        return fileConfiguration.getDouble(path);
+    }
+
+    public double getDouble(String path, double def) {
+        return fileConfiguration.getDouble(path, def);
     }
 
     public boolean getBoolean(String path) {

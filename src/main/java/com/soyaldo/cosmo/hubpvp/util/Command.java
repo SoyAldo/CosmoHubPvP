@@ -1,4 +1,4 @@
-package com.soyaldo.luckypillarsinfection.utils;
+package com.soyaldo.cosmo.hubpvp.util;
 
 import org.bukkit.Location;
 import org.bukkit.command.*;

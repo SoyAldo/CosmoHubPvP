@@ -1,7 +1,19 @@
-name: CosmoHubPvP
+name: "CosmoHubPvP"
 version: '1.0.0-ALPHA'
-main: com.soyaldo.cosmo.CosmoHubPvP
+main: "com.soyaldo.cosmo.hubpvp.CosmoHubPvP"
 api-version: '1.19'
 authors: [SoyAldo]
-description: Sistema de combate en el vestibulo.
-website: https://soyaldo.com
+description: "Simple pvp system for your lobbies."
+website: "https://soyaldo.com/plugins/cosmohubpvp"
+
+commands:
+  cosmohubpvpadmin:
+    description: "Command to manage the plugin."
+    permission: "cosmohubpvp.admin"
+permissions:
+  cosmohubpvp.admin:
+    description: "Permission to use the admin command."
+    default: "op"
+  cosmohubpvp.use:
+    description: "Permission to fight with this plugin."
+    default: true

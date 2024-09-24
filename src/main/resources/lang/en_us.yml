@@ -1,0 +1,11 @@
+pvp-enabled: '&6&l>&r&a PvP enabled!'
+pvp-enabling: '&aPvP enabling in %time% second(s).'
+pvp-disabled: '&6&l>&r&c PvP disabled!'
+pvp-disabling: '&cPvP disabling in %time% second(s).'
+reloaded: '&aSuccessfully reloaded the HubPvP config!'
+killed: '&4%killer% &chas killed you.'
+killed-other: '&eYou have killed &6%killed%&e!'
+disabled-in-world: "&cYou may not use this in this world!"
+healthGained: '&aYou killed %killed% and gained +%extra% health!'
+
+emptyArguments: ""
